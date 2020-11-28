@@ -74,3 +74,59 @@ body{
     font-style: italic;
     font-size: 1.125em;
 }
+
+.sobre {
+    padding: 60px 0;
+}
+
+.sobre-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sobre-container::after, .sobre-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 2.25em;
+    margin-bottom: 60px;
+}
+
+.sobre-item{
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.sobre-item img{
+    display: block;
+    max-width: 100%;
+
+}
+.sobre-item h3{
+    font-size: 2.25em;
+    background: #252525;
+    color: #FFF;
+    font-style: italic;
+    line-height: 1em;
+    font-weight: normal;
+    text-transform: lowercase;
+    padding: 5px 0 10px 0;
+    width: 220px;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+
+.sobre > p{
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+}
