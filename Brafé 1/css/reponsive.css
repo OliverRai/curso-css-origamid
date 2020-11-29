@@ -3,4 +3,8 @@
         float: none;
         clear: both;
     }
+
+    .intro {
+        padding: 60px 0;
+    }
 }
